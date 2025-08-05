@@ -1,0 +1,31 @@
+{
+	"name": "DS_Testing",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnk_trg_specific_file_copy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "trgcont02"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Orders[Customer_Name]",
+				"type": "String"
+			},
+			{
+				"name": "[Total Sales Per Customer]",
+				"type": "String"
+			}
+		]
+	}
+}
