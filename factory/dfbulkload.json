@@ -1,0 +1,9 @@
+{
+	"name": "dfbulkload",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3cb39c8a-5551-4c9d-9324-275136365740",
+		"tenantId": "b8993f9c-e1d9-4bfe-b8c6-7acc1e194d2f"
+	}
+}
