@@ -1,0 +1,9 @@
+{
+	"name": "ADFSPECIFICFILECOPY",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "65c27272-6240-4d0e-9e7b-f0a07bd8a426",
+		"tenantId": "b8993f9c-e1d9-4bfe-b8c6-7acc1e194d2f"
+	}
+}
