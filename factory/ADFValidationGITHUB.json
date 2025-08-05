@@ -1,0 +1,9 @@
+{
+	"name": "ADFValidationGITHUB",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "306319f6-7ba9-420d-b666-e03cfaff22b5",
+		"tenantId": "b8993f9c-e1d9-4bfe-b8c6-7acc1e194d2f"
+	}
+}
